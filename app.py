@@ -48,7 +48,7 @@ if uploaded_file is not None:
 
         #Converting the dataframe based on the searched title
         if search_input:
-                df=df[df['title'.str.contains(search_input, case=False, na=False)]]
+                df=df[df['title'].str.contains(search_input, case=False, na=False)]
 
         #Calculating year counts
         yearly_counts = df['year_added'].value_counts().sort_index()
