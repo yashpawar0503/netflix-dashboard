@@ -38,7 +38,7 @@ You can upload the CSV file directly in the app.
 Hey! I’m Yash Pawar, a second-year mechanical engineering student at IIT Goa. diving into data analysis and simulations out of pure curiosity.
 This dashboard is one of my first steps into this exciting field.
 
-Connect with Me
+# Connect with Me
 LinkedIn:- https://www.linkedin.com/in/yash-pawar-875837274/
 GitHub:- https://github.com/yashpawar0503
 
