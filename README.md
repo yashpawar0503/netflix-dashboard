@@ -1,81 +1,46 @@
-# 📺 Netflix Data Dashboard
+# Netflix Data Dashboard
+This is my first hands-on data analysis project where I explored Netflix’s content using an interactive dashboard built with Streamlit.
 
-An interactive data analytics dashboard built with **Streamlit**, using Netflix's content dataset.  
-This project lets users explore trends in Netflix shows and movies across years, genres, and countries — all wrapped in a sleek, Netflix-inspired UI.
+The goal was simple:
+Learn by doing, visualize real data, and build something I can share with others.
 
----
+# What This Project Does
+It takes the Netflix content dataset (from Kaggle) and turns it into a clean, filterable dashboard where you can:
 
-## 🔥 Features
+Explore how many titles were added each year
+Compare movies and TV shows
+See which countries and genres dominate the platform
+Filter content by year, type, or even search for a title
+Download the filtered results as a CSV
 
-- 📊 Interactive visualizations (pie, bar, line plots)
-- 🎛️ Sidebar filters (year range, content type, title search)
-- 📥 Download filtered CSVs
-- 🧾 Key metrics display (titles, movies, TV shows, countries)
-- 🎨 Dark theme matching Netflix branding
-- ⚡ Built entirely with Python and Streamlit
+All presented with a dark, Netflix-style theme.
 
----
+# How to Run It
+If you want to try this locally:
 
-## 📂 How to Run Locally
+Clone the repo
+Install the required Python libraries
+Run the app using Streamlit
 
-### 1. Clone this repo:
+# What I Learned
+As someone just starting out in data analytics, this project helped me understand:
 
-```bash
-git clone https://github.com/yashpawar0503/netflix-dashboard.git
-cd netflix-dashboard
-```
+The basics of data cleaning and preprocessing with Pandas
+How to use Streamlit to make interactive dashboards
+Creating plots using Plotly and Matplotlib
+Making data projects more visual and beginner-friendly
 
-### 2. Install dependencies:
+# Dataset Used
+Netflix Titles dataset from Kaggle.
+You can upload the CSV file directly in the app.
 
-```bash
-pip install -r requirements.txt
-```
+# About Me
+Hey! I’m Yash Pawar, a second-year mechanical engineering student at IIT Goa. diving into data analysis and simulations out of pure curiosity.
+This dashboard is one of my first steps into this exciting field.
 
-### 3. Run the app:
+Connect with Me
+LinkedIn:- https://www.linkedin.com/in/yash-pawar-875837274/
+GitHub:- https://github.com/yashpawar0503
 
-```bash
-streamlit run app.py
-```
 
----
 
-## 🧠 What I Learned
-
-- Streamlit layout and component logic  
-- Handling missing values and filters in real datasets  
-- Plotly for interactive graphs  
-- Making data analysis more presentable for non-tech audiences
-
----
-
-## 📁 Sample Dataset
-
-This app uses Netflix’s open dataset available from [Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows).  
-You can upload your own `netflix_titles.csv` using the file uploader.
-
----
-
-## 🧑‍💻 Author
-
-**Yash Pawar**  
-> Second-Year Mechanical Engineering Student  
-> Passionate about data, simulation, and turning real-world mess into beautiful graphs!
-
----
-
-## 🔗 Connect With Me
-
-- [LinkedIn](https://www.linkedin.com/in/yash-pawar-875837274/)
-- [GitHub](https://github.com/yashpawar0503)
-
----
-
-## 🚀 Live Demo (optional)
-
-If hosted on [Streamlit Cloud](https://share.streamlit.io)
-
----
-
-## License
-
-MIT License
